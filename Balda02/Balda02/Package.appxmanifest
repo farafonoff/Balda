@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="53804ArtemFarafonov.RussianBalda" Publisher="CN=ECAC4A58-CFD4-4D33-AE76-BAAFB80085FE" Version="1.0.0.3" />
+  <Properties>
+    <DisplayName>RussianBalda</DisplayName>
+    <PublisherDisplayName>ArtemFarafonov</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Balda02.App">
+      <VisualElements DisplayName="RussianBalda" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Balda - classic russian word game. Put letters on square, make words and gain score points." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

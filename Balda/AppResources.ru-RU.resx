@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alphabet" xml:space="preserve">
+    <value>абвгдежзийклмнопрстуфхцчшщъыьэюя</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Балда</value>
+  </data>
+  <data name="cfDemoText" xml:space="preserve">
+    <value>Текущая игра будет потеряна. Действительно запустить демонстрацию?</value>
+  </data>
+  <data name="cfDemoTitle" xml:space="preserve">
+    <value>Демонстрация</value>
+  </data>
+  <data name="cfRestartText" xml:space="preserve">
+    <value>Действительно хотите начать игру заново?</value>
+  </data>
+  <data name="cfRestartTitle" xml:space="preserve">
+    <value>Сброс игры</value>
+  </data>
+  <data name="fcfNearText" xml:space="preserve">
+    <value>Чтобы составить слово, вам нужно поставить букву рядом с другими, и выделить слово используя эту букву</value>
+  </data>
+  <data name="fcfNearTitle" xml:space="preserve">
+    <value>Ставьте букву рядом с другими</value>
+  </data>
+  <data name="fgAgain" xml:space="preserve">
+    <value>Играть снова</value>
+  </data>
+  <data name="fgcfAddText" xml:space="preserve">
+    <value>Добавить слово в словарь?</value>
+  </data>
+  <data name="fgcfAddTitle" xml:space="preserve">
+    <value>Слово в словаре не найдено</value>
+  </data>
+  <data name="fgcfUsedText" xml:space="preserve">
+    <value>В этой игре слово уже использовано</value>
+  </data>
+  <data name="fgcfUsedTitle" xml:space="preserve">
+    <value>Слово уже было</value>
+  </data>
+  <data name="fgMiss" xml:space="preserve">
+    <value>Пропустить ход</value>
+  </data>
+  <data name="fgPlayer" xml:space="preserve">
+    <value>Игрок: </value>
+  </data>
+  <data name="fgScore" xml:space="preserve">
+    <value>Счет: </value>
+  </data>
+  <data name="fgWinner" xml:space="preserve">
+    <value>Победитель</value>
+  </data>
+  <data name="fgWScore" xml:space="preserve">
+    <value>Счет</value>
+  </data>
+  <data name="gm1" xml:space="preserve">
+    <value>Один игрок</value>
+  </data>
+  <data name="gm2" xml:space="preserve">
+    <value>Два игрока (по очереди)</value>
+  </data>
+  <data name="hdEasy" xml:space="preserve">
+    <value>Простой</value>
+  </data>
+  <data name="hdFull" xml:space="preserve">
+    <value>Ужасный</value>
+  </data>
+  <data name="hdHard" xml:space="preserve">
+    <value>Сложный</value>
+  </data>
+  <data name="hdMedium" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="mGame" xml:space="preserve">
+    <value>Игра</value>
+  </data>
+  <data name="mmAbout" xml:space="preserve">
+    <value>о программе</value>
+  </data>
+  <data name="mmDemo" xml:space="preserve">
+    <value>демонстрация</value>
+  </data>
+  <data name="mmRestart" xml:space="preserve">
+    <value>заново</value>
+  </data>
+  <data name="mmScoreboard" xml:space="preserve">
+    <value>рекорды</value>
+  </data>
+  <data name="mmSettings" xml:space="preserve">
+    <value>параметры</value>
+  </data>
+  <data name="mWords" xml:space="preserve">
+    <value>Слова</value>
+  </data>
+  <data name="pgSettings" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="stHardness" xml:space="preserve">
+    <value>Уровень телефона</value>
+  </data>
+  <data name="stLang" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="stMode" xml:space="preserve">
+    <value>Режим игры</value>
+  </data>
+  <data name="stUn1" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="stUn2" xml:space="preserve">
+    <value>Имя второго игрока</value>
+  </data>
+  <data name="wbNearText" xml:space="preserve">
+    <value>Выделяйте соседние по стороне клетки так, чтобы получилось слово, затем нажмите еще раз на последнюю выбранную букву</value>
+  </data>
+  <data name="wbNearTitle" xml:space="preserve">
+    <value>Буквы слова должны располагаться рядом</value>
+  </data>
+  <data name="wbUnusedNewText" xml:space="preserve">
+    <value>Вы обязательно должны использовать вновь поставленную букву в своем слове</value>
+  </data>
+  <data name="wbUnusedNewTitle" xml:space="preserve">
+    <value>Новая буква не использована</value>
+  </data>
+  <data name="fgDraw" xml:space="preserve">
+    <value>Ничья!</value>
+  </data>
+  <data name="tPhone" xml:space="preserve">
+    <value>телефон</value>
+  </data>
+  <data name="hp0" xml:space="preserve">
+    <value>Во время своего хода игрок должен подставить на игровое поле букву так, чтобы она располагалась в клетке, смежной уже заполненным клеткам по горизонтали или по вертикали. Иными словами, слева, справа, сверху или снизу относительно уже заполненных клеток.</value>
+  </data>
+  <data name="hp1" xml:space="preserve">
+    <value>В каждой клетке по 1 букве, игроки ходят по очереди.</value>
+  </data>
+  <data name="hp2" xml:space="preserve">
+    <value>Слово должно составляться переходом по смежным клеткам, расположенным под прямыми углами относительно друг друга</value>
+  </data>
+  <data name="hp3" xml:space="preserve">
+    <value>В слове должна быть использована поставленная на поле буква.</value>
+  </data>
+  <data name="hp4" xml:space="preserve">
+    <value>Одна буква — одно очко. Чем длиннее слово вы придумаете, тем больше очков получаете.</value>
+  </data>
+  <data name="hp5" xml:space="preserve">
+    <value>Слово должно являться нарицательным именем существительным в начальной форме (единственном числе и именительном падеже или множественном числе и именительном падеже в случае слова, не употребляющегося в единственном числе).</value>
+  </data>
+  <data name="hp6" xml:space="preserve">
+    <value>Игра заканчивается тогда, когда будут заполнены все клетки</value>
+  </data>
+  <data name="mmHelp" xml:space="preserve">
+    <value>Правила игры</value>
+  </data>
+  <data name="purchase" xml:space="preserve">
+    <value>Купить и убрать баннер</value>
+  </data>
+  <data name="plFriend" xml:space="preserve">
+    <value>Друг</value>
+  </data>
+  <data name="plYou" xml:space="preserve">
+    <value>Вы</value>
+  </data>
+  <data name="dCurrent" xml:space="preserve">
+    <value>Эта игра</value>
+  </data>
+  <data name="dDel" xml:space="preserve">
+    <value>Убрать выбранные</value>
+  </data>
+  <data name="dictionary" xml:space="preserve">
+    <value>Словарь</value>
+  </data>
+  <data name="dUserDict" xml:space="preserve">
+    <value>Добавленные</value>
+  </data>
+  <data name="stSize" xml:space="preserve">
+    <value>Размер поля</value>
+  </data>
+  <data name="dSend" xml:space="preserve">
+    <value>Отправить разработчику</value>
+  </data>
+  <data name="mmScore" xml:space="preserve">
+    <value>Мои рекорды</value>
+  </data>
+  <data name="sbLongestWord" xml:space="preserve">
+    <value>Лучшее слово</value>
+  </data>
+  <data name="sbScore" xml:space="preserve">
+    <value>Итоговый счет</value>
+  </data>
+</root>
